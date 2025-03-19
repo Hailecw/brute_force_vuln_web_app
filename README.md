@@ -9,7 +9,7 @@ source brute_force/bin/activate
 cd brute_force/Scripts
 activate
 
-then install django using pip
+then install django using pip</br>
 pip install django
 
 use credentials.txt and brute_force.py
