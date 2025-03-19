@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logout Page</title>
+    <style>
+        /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+#loginAgainBtn {
+    background-color: #2ed573;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#loginAgainBtn:hover {
+    background-color: #7bed9f;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Logout Successful</h1>
+        </header>
+        <main>
+            <p>You have been successfully logged out.</p>
+           <a href="{% url 'login' %}"> <button id="loginAgainBtn">Login Again</button></a>
+        </main>
+    </div>
+
+</body>
+</html>
