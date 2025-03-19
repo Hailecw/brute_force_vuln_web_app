@@ -1,6 +1,6 @@
 # brute_force_vuln_web_app
 this repository is vunerable to brute force attack intentinally</br>
-# first create virtual enviroment 
+first create virtual enviroment 
 
 python -m venv brute_force
 
